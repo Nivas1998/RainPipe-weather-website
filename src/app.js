@@ -6,7 +6,7 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-// const app = express()
+ const app = express()
 
 //Define Paths for Express configuration
 const publicDirectoryPath = path.join(__dirname,'../public')
